@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '>=2.2.2'
   spec.add_dependency 'activesupport', '>= 4.2', '< 6.2'
   spec.add_dependency 'RubyInline', '~> 3'
-  spec.add_development_dependency 'minitest', '~> 5.4'
-  spec.add_development_dependency 'coveralls', '~> 0'
-
+  spec.add_development_dependency 'minitest', '~> 5.14'
+  spec.add_development_dependency 'thor', '>= 0.20.3'
+  spec.add_development_dependency 'coveralls', '>= 0.8.23'
 end
